@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#070a18" />
+  <meta name="description" content="Nuestro Universo — Cristian y Valeria" />
+  <title>Nuestro Universo ✦ Cristian & Valeria</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <div class="intro" id="intro">
+    <div class="intro__content">
+      <p class="eyebrow">Hay encuentros que parecen casualidad…</p>
+      <h1>Entre tantas personas,<br><span>la vida nos hizo coincidir.</span></h1>
+      <p class="intro__copy">No nos estábamos buscando y, aun así, hubo algo que nos hizo detenernos, conocernos y descubrir que valía la pena quedarnos.</p>
+      <button class="primary-btn" id="enterBtn">Descubrir nuestra historia ✦</button>
+      <p class="tiny">Pon tus audífonos, amor. Esta historia también tiene canción.</p>
+    </div>
+  </div>
+
+  <button class="music" id="musicBtn" aria-label="Reproducir o pausar música" title="103 — Jara">
+    <span class="music__icon">♫</span>
+    <span class="music__label">103 — Jara</span>
+  </button>
+  <audio id="soundtrack" preload="metadata" loop>
+    <source src="assets/audio/103.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main id="experience">
+    <section class="hero section" id="inicio">
+      <div class="hero__photo" role="img" aria-label="Cristian y Valeria en un mirador"></div>
+      <div class="hero__shade"></div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">Nuestro universo</p>
+        <h2>Cristian <span>✦</span> Valeria</h2>
+        <p class="date">20 · 06 · 2026</p>
+        <blockquote>“Desde que llegaste, mis días tienen algo que antes no tenían: la tranquilidad de saber que existe una persona con la que mi corazón puede sentirse en casa.”</blockquote>
+      </div>
+      <a class="scroll-cue" href="#coincidencia" aria-label="Continuar">↓</a>
+    </section>
+
+    <section class="section story" id="coincidencia">
+      <div class="section-title reveal">
+        <p class="eyebrow">Capítulo 01</p>
+        <h2>La coincidencia que cambió todo</h2>
+      </div>
+      <div class="cosmic-card reveal">
+        <div class="orbit orbit--one"></div>
+        <div class="orbit orbit--two"></div>
+        <div class="pair-stars" aria-hidden="true"><i></i><i></i></div>
+        <p>Nos conocimos en una app de citas cuando ninguno de los dos parecía estar buscando precisamente lo que terminó encontrando. Yo no buscaba algo serio y tú tampoco imaginabas que alguien como yo pudiera convertirse en una persona tan importante para ti.</p>
+        <p>Lo más fácil habría sido ignorarnos, seguir deslizando y continuar con nuestras vidas sin saber jamás lo que podía existir entre nosotros. Pero hubo algo difícil de explicar que nos hizo quedarnos: seguir hablando, conocernos un poco más y darle una oportunidad a una conexión que en ese momento ninguno entendía por completo.</p>
+        <p class="accent-copy">No sé si fue intuición, curiosidad o simplemente una de esas coincidencias que la vida pone enfrente una sola vez. Lo único que sé es que me alegra profundamente que ambos le hayamos hecho caso, porque de ahí comenzó una de las partes más bonitas de mi vida.</p>
+      </div>
+    </section>
+
+    <section class="section" id="historia">
+      <div class="section-title reveal">
+        <p class="eyebrow">Capítulo 02</p>
+        <h2>Los días en los que comenzó nuestro nosotros</h2>
+        <p class="subtitle">Hay fechas que parecen normales hasta que, con el tiempo, entiendes que ahí comenzó a cambiar tu vida.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-card reveal">
+          <div class="timeline-card__media"><img src="assets/photos/parque_sonrisa.jpeg" alt="Cristian y Valeria juntos en el parque" loading="lazy"></div>
+          <div class="timeline-card__body">
+            <p class="date">16 · 05 · 2026</p>
+            <h3>Nuestra primera cita</h3>
+            <p>Fuimos a comer y terminamos pasando toda la tarde platicando. No hubo presión ni necesidad de aparentar nada; simplemente todo se dio de una forma tan natural que las horas parecieron pasar sin que me diera cuenta.</p>
+            <p>Mientras más te escuchaba y más te conocía, más ganas tenía de seguir ahí contigo. Ese día hubo algo dentro de mí que se sintió distinto. No sabía todavía todo lo que viviríamos, pero sí sentí una certeza muy fuerte: quería seguir conociéndote y quería que fueras tú.</p>
+            <blockquote>“Fui a esa cita con ganas de conocerte un poco más y regresé con la sensación de querer descubrir contigo todo lo que aún nos faltaba por vivir.”</blockquote>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-card__media"><img src="assets/photos/manos.jpeg" alt="Las manos de Cristian y Valeria" loading="lazy"></div>
+          <div class="timeline-card__body">
+            <p class="date">17 · 05 · 2026</p>
+            <h3>Helado, elote y una paz inesperada</h3>
+            <p>Al día siguiente volvimos a encontrarnos casi de manera casual. Fuimos por un helado, después por un elote y terminamos haciendo algo que ahora entiendo que se volvería muy nuestro: sentarnos, hablar y disfrutar simplemente de estar juntos.</p>
+            <p>Lo que más recuerdo de ese día es la tranquilidad. Parecía que te conocía desde hacía muchísimo tiempo. Nos quedamos abrazados durante un buen rato y eso era extraño para ambos, porque ninguno suele sentirse cómodo con el contacto de alguien que todavía no forma parte de su círculo. Pero contigo no se sintió extraño; se sintió fácil, cercano y seguro.</p>
+            <blockquote>“Ese día entendí que contigo no necesitaba que pasara algo extraordinario para sentirme feliz. Me bastaba estar a tu lado y sentir esa paz que, sin saberlo, empezaba a parecerse mucho al amor.”</blockquote>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal no-photo">
+          <div class="timeline-card__body">
+            <div class="kiss-star" aria-hidden="true">✦</div>
+            <p class="date">07 · 06 · 2026</p>
+            <h3>El beso que me dio una respuesta</h3>
+            <p>Las semanas siguieron pasando y nuestras salidas de fin de semana empezaron a convertirse en una parte que esperaba con ilusión. Sin darme cuenta, dejaste de ser solamente alguien que estaba conociendo y te convertiste en la persona con la que quería compartir mis días.</p>
+            <p>Entonces llegó ese beso. Tal vez para ti fue un gesto espontáneo o algo sencillo, pero para mí significó muchísimo más: fue el momento en el que sentí que aquello que estaba creciendo dentro de mí también estaba encontrando un lugar dentro de ti.</p>
+            <blockquote>“Ese beso no inició lo que yo sentía por ti; me hizo sentir, por primera vez, que quizá los dos estábamos caminando hacia el mismo lugar.”</blockquote>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-card__media"><img src="assets/photos/20_junio_collage.jpeg" alt="Collage del 20 de junio de 2026" loading="lazy"></div>
+          <div class="timeline-card__body">
+            <p class="date">20 · 06 · 2026</p>
+            <h3>El día en que nos convertimos en nosotros</h3>
+            <p>Con una carta, un ramo de flores y el corazón completamente puesto en ti, te pedí que fueras mi novia. Tal vez fue un momento sencillo, pero lo que llevaba dentro de mí no tenía nada de pequeño.</p>
+            <p>Ese día nuestra historia dejó de ser solamente algo bonito que estaba creciendo y comenzó oficialmente lo nuestro: tú y yo eligiendo descubrir hasta dónde podía llevarnos todo esto que había nacido entre los dos.</p>
+            <blockquote>“Con una carta, un ramo y todo el amor que ya sentía por ti, comenzó oficialmente lo nuestro.”</blockquote>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="ojos">
+      <div class="split__media reveal"><img src="assets/photos/parque_calma.jpeg" alt="Cristian y Valeria juntos" loading="lazy"></div>
+      <div class="split__text reveal">
+        <p class="eyebrow">La primera cosa de ti que me hizo detenerme</p>
+        <h2>Tus ojos</h2>
+        <p>Desde la primera vez que te vi hubo algo de ti que se quedó conmigo: tus ojos. Siempre he pensado que los ojos son una especie de puerta hacia el alma, porque en ellos se pueden encontrar sentimientos y partes de una persona que a veces las palabras no saben explicar.</p>
+        <p>Y los tuyos me parecieron hermosos desde el principio. Sé que tú dices que no son la gran cosa, pero creo que no puedes verlos desde el lugar desde el que los veo yo. Tú no alcanzas a ver todo lo que encuentro cuando me quedo perdido mirándolos: la ternura, la fuerza, la tranquilidad y esa belleza que para mí es completamente tuya.</p>
+        <blockquote>“Ojalá algún día pudieras mirar tus ojos como yo los miro, para que entendieras por qué todavía puedo perderme en ellos como la primera vez.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section love-grid-section" id="todo-de-ti">
+      <div class="section-title reveal">
+        <p class="eyebrow">Capítulo 03</p>
+        <h2>Todo lo que amo y admiro de ti</h2>
+        <p class="subtitle">Podría intentar dividir en estrellas todo lo que me enamora de ti y aun así sentiría que me faltan palabras.</p>
+      </div>
+      <div class="love-grid">
+        <button class="love-star reveal" data-title="Tu mirada" data-copy="Tus ojos fueron de las primeras cosas que me hicieron detenerme en ti. Hay algo en tu mirada que me parece profundamente hermoso y que todavía consigue dejarme perdido cuando te observo.">Tu mirada ✦</button>
+        <button class="love-star reveal" data-title="Tu belleza" data-copy="Amo tu nariz, tus labios, tu figura y todos esos pequeños rasgos que forman la mujer que tengo enfrente. Para mí eres hermosa de una manera que no cambiaría por nada.">Tu belleza ✦</button>
+        <button class="love-star reveal" data-title="Tu esfuerzo" data-copy="Admiro la manera en que te comprometes con lo que haces. Incluso cuando estás cansada o agotada, buscas la forma de cumplir, terminar lo pendiente y seguir adelante. Esa responsabilidad y esa fuerza dicen muchísimo de la mujer que eres.">Tu esfuerzo ✦</button>
+        <button class="love-star reveal" data-title="Tu forma de hacerme reír" data-copy="Amo tu sentido del humor, las cosas que dices y la facilidad con la que puedes sacarme una sonrisa. Me encanta que contigo también exista esa parte ligera donde podemos reírnos, jugar y disfrutar nuestras tonterías.">Tu humor ✦</button>
+        <button class="love-star reveal" data-title="Todo eso que te hace tú" data-copy="Amo tus gestos, tus expresiones, tus pequeñas manías y esas cosas que quizá tú ni siquiera notas. Son detalles que para mí resultan tiernos y que forman parte de eso que te vuelve única y especial.">Tu esencia ✦</button>
+      </div>
+      <div class="center-quote reveal">“No amo una versión ideal de ti. Te amo completa: por lo que veo, por lo que admiro y por cada detalle que te convierte exactamente en la mujer que eres.”</div>
+    </section>
+
+    <section class="section peace" id="paz">
+      <div class="peace__image reveal"><img src="assets/photos/manos.jpeg" alt="Manos de Cristian y Valeria" loading="lazy"></div>
+      <div class="peace__copy reveal">
+        <p class="eyebrow">El lugar donde mi mente descansa</p>
+        <h2>La paz que encuentro contigo</h2>
+        <p>Cuando estoy contigo siento que el ruido de todo lo demás baja de volumen. Por un momento dejan de importar los problemas, las preocupaciones, el trabajo y todas esas cosas que normalmente ocupan mi cabeza. Quedamos solamente tú y yo compartiendo el mismo instante.</p>
+        <p>Mi mente se calma y puedo disfrutar de estar presente contigo. No necesito que estemos haciendo algo increíble; muchas veces me basta con tenerte cerca para sentir que todo está un poco mejor.</p>
+        <blockquote>“En medio de tantas cosas que pueden inquietarme, tú te has convertido en ese lugar donde mi mente encuentra calma y mi corazón puede descansar.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section memory" id="tarde-simple">
+      <div class="memory__backdrop"></div>
+      <div class="memory__content reveal">
+        <p class="eyebrow">Uno de esos recuerdos que guardo sin esfuerzo</p>
+        <h2>Una tarde sencilla que todavía llevo conmigo</h2>
+        <p>No fue una salida llena de planes ni algo que desde fuera pareciera extraordinario. Fuimos a comer, después nos sentamos en el parque a platicar y recuerdo haberme recostado sobre tus piernas mientras la tarde simplemente pasaba.</p>
+        <p>Estábamos tranquilos. Sin prisas, sin necesitar nada más, solamente compartiendo ese momento. Después fuimos por un elote y, mientras comíamos, un muchacho se acercó a vendernos unas pulseras. Las compramos sin imaginar que seguiríamos usándolas y que terminarían convirtiéndose en un pequeño recuerdo que todavía llevamos con nosotros.</p>
+        <p>Creo que por eso esa tarde significa tanto para mí. Me recuerda que mis momentos favoritos contigo no dependen de hacer algo grande. Muchas veces nacen simplemente de tenerte cerca, sentirme en paz y saber que, en ese instante, no necesito estar en ningún otro lugar.</p>
+        <blockquote>“Contigo aprendí que un recuerdo no necesita ser extraordinario para volverse inolvidable; a veces basta una tarde tranquila y la persona correcta a tu lado.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section split split--reverse" id="asi-me-amas">
+      <div class="split__media reveal"><img src="assets/photos/dia_a_dia.jpeg" alt="Cristian y Valeria en un momento cotidiano" loading="lazy"></div>
+      <div class="split__text reveal">
+        <p class="eyebrow">Capítulo 04</p>
+        <h2>Las formas en las que me haces sentir amado</h2>
+        <p>Tu cariño aparece constantemente en cosas que podrían parecer pequeñas, pero que para mí significan muchísimo. Está cuando me preguntas cómo estoy, cuando quieres saber si ya comí, cuando te interesa cómo me fue en el trabajo o simplemente cuando estás pendiente de lo que sucede conmigo.</p>
+        <p>También lo encuentro en todo lo que has ido compartiendo conmigo: en tus palabras cariñosas, en los abrazos y en ese contacto físico que sé que no entregas con facilidad. Por eso cada vez que te acercas, me abrazas o buscas estar conmigo, yo entiendo el valor que tiene.</p>
+        <p>Y están tus detalles: esas veces en las que ves algo que me gusta, te acuerdas de mí y decides hacerme sentir especial sin necesidad de que exista una fecha o una razón.</p>
+        <blockquote>“Tu manera de amarme me ha enseñado que el amor muchas veces no hace ruido: pregunta si ya comiste, se interesa por tu día, te abraza y se acuerda de ti cuando nadie se lo pidió.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section dramas" id="dramas">
+      <div class="section-title reveal">
+        <p class="eyebrow">Porque no todo en nuestro universo puede ser seriedad</p>
+        <h2>Mis dramas y tu paciencia 😂</h2>
+      </div>
+      <div class="drama-card reveal">
+        <div class="drama-alert">🚨 DRAMA DETECTADO 🚨</div>
+        <p>Tú sabes mejor que nadie que soy una persona sensible y bastante dramática. A veces invento escenas solo por jugar, otras veces exagero un poquito… y algunas quizá tengan un pequeño porcentaje de verdad escondido entre todo el teatro.</p>
+        <p>Pero una de las cosas que más disfruto es que tú entiendes esa parte de mí y muchas veces decides seguirme el juego. Me haces reír, respondes a mis dramas y consigues que incluso mis exageraciones terminen siendo uno de esos detalles divertidos que siento muy nuestros.</p>
+        <p>Amo poder mostrarte también esa versión de mí sin sentir que tengo que esconderla.</p>
+        <button class="secondary-btn" id="rogelioBtn">Hay una estrella sospechosa por aquí ✦</button>
+        <div class="rogelio" id="rogelio" hidden>
+          <p>“Sí, como yo no soy Rogelio…”</p>
+          <p>“Si fuera Rogelio seguro sí…”</p>
+          <p>“Lo defiendes mucho, ¿no?” 😒😂</p>
+          <span>Rogelio ha sido retirado temporalmente de nuestro universo ✓</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section future" id="futuro">
+      <div class="future__photo" aria-hidden="true"></div>
+      <div class="future__overlay"></div>
+      <div class="future__content reveal">
+        <p class="eyebrow">Todo aquello que todavía existe delante de nosotros</p>
+        <h2>No quiero limitarme a soñar un futuro contigo.<br><span>Quiero construirlo a tu lado.</span></h2>
+        <div class="future-grid">
+          <article><b>⌂</b><h3>Nuestro hogar</h3><p>Sueño con un espacio construido entre los dos, lleno de nuestras costumbres, nuestros momentos y esa tranquilidad de poder decir: esto lo hicimos juntos y este es nuestro lugar.</p></article>
+          <article><b>♡</b><h3>Nuestra familia</h3><p>Quiero que algún día podamos mirar alrededor y encontrar la familia que decidimos construir, nuestros hijos y una vida llena de historias que todavía no conocemos.</p></article>
+          <article><b>↗</b><h3>Crecer juntos</h3><p>Quiero que caminemos uno al lado del otro mientras aprendemos, nos equivocamos, nos apoyamos y nos impulsamos a convertirnos en mejores versiones de nosotros mismos.</p></article>
+          <article><b>✦</b><h3>Algo que sea de los dos</h3><p>También imagino un negocio o un proyecto nuestro, algo que nazca de nuestras ideas y nuestro esfuerzo y que podamos ver crecer al mismo tiempo que crecemos nosotros.</p></article>
+        </div>
+        <blockquote>“No sé exactamente qué caminos nos vaya a poner la vida enfrente, pero sí sé cómo quiero recorrerlos: contigo, aprendiendo, creciendo y construyendo paso a paso una vida que se sienta nuestra.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section counter-section" id="tiempo">
+      <div class="section-title reveal">
+        <p class="eyebrow">El tiempo no se detuvo; simplemente empezó a contar algo diferente</p>
+        <h2>Todo el tiempo que llevamos eligiéndonos</h2>
+      </div>
+      <div class="counter reveal" aria-live="polite">
+        <div><strong id="days">0</strong><span>días</span></div>
+        <div><strong id="hours">0</strong><span>horas</span></div>
+        <div><strong id="minutes">0</strong><span>minutos</span></div>
+        <div><strong id="seconds">0</strong><span>segundos</span></div>
+      </div>
+      <p class="counter-note reveal">Cada segundo suma un pedacito más a nuestra historia, y lo más bonito es saber que todavía nos queda muchísimo por descubrir juntos. ✦</p>
+    </section>
+
+    <section class="section finale" id="final">
+      <div class="finale__gallery" aria-hidden="true">
+        <img src="assets/photos/parque_sonrisa.jpeg" alt="">
+        <img src="assets/photos/20_junio_collage.jpeg" alt="">
+        <img src="assets/photos/mirador_natural.jpeg" alt="">
+      </div>
+      <div class="finale__content reveal">
+        <p class="eyebrow">Si después de recorrer todo esto pudiera dejarte una sola certeza…</p>
+        <h2>Te amo, amor.</h2>
+        <p>Quiero que al terminar esta pequeña parte de nuestra historia entiendas algo que a veces siento que las palabras normales no alcanzan a explicar: te amo muchísimo y soy profundamente feliz de que hayas llegado a mi vida.</p>
+        <p>Me hace feliz pensar en la forma tan inesperada en la que comenzamos, en cada conversación, cada salida, cada abrazo, cada risa y cada momento sencillo que poco a poco fue construyendo lo que hoy somos.</p>
+        <p>Gracias por estar pendiente de mí, por quererme a tu manera, por abrirme un espacio dentro de tu vida y por permitirme conocerte tal como eres. Gracias también por darme un lugar donde puedo sentir paz, ser sensible, hacer mis dramas, reír y simplemente ser yo.</p>
+        <p>No sé todo lo que nos espera y sé que todavía tenemos muchísimo por aprender y vivir. Pero cuando pienso en una casa, una familia, nuestros proyectos y en crecer junto a alguien, eres tú la persona que aparece en cada uno de esos sueños.</p>
+        <div class="final-message">Llegaste sin que te estuviera buscando y terminaste convirtiéndote en alguien con quien quiero construir todo aquello que antes solo podía imaginar. Te amo y me hace inmensamente feliz que nuestra historia exista.</div>
+        <p class="signature">Cristian ✦ Valeria<br><span>20 · 06 · 2026</span></p>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="modal" id="loveModal">
+    <button class="modal__close" id="modalClose" aria-label="Cerrar">×</button>
+    <div class="modal__star">✦</div>
+    <h2 id="modalTitle"></h2>
+    <p id="modalCopy"></p>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
